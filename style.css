@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+    background: url(bg.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+}
+.buttn{
+    width:20%;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    padding:5px 5px 5px 5px;
+    font-family: sniglet;
+    border:1px solid burlywood;
+    border-radius: 10px;
+    color:white;
+
+}
+.buttn:hover{
+    color:whitesmoke;
+    background-color: black;
+    font-size: 25px;
+    margin:10px;
+    border-color:greenyellow;
+}
+.mar{
+    width:auto;
+    text-align: center;
+    font-family: pacifico;
+    position:absolute;
+    top:10%;
+    left:80%;
+    border:1px outset whitesmoke;
+    padding:5px 5px 5px 5px;
+    border-radius:10px;
+    color:rgb(0, 123, 139);
+    font-size:30px;
+
+}
+.gif{
+    position:absolute;
+    top:25%;
+    left:80%;
+    height:250px;
+    width:auto;
+    border-radius: 25px;
+
+
+}
+.qoute{
+    margin-left:60px;
+    width:500px;
+    margin-top: 50px;
+    font-family:Gloria+Hallelujah;
+    font-size:30px;
+    color:white;
+    background-color: #312c2c
+
+}
+.img{
+    height:190px;
+    width:auto;
+    border-radius:40%;
+    margin:10px;
+}
+console.log("Hii");

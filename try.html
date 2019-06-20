@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>
+        Try
+    </title>
+    <style>
+        body{
+            background-color: darkolivegreen;
+            color:darkorange;
+        }
+        .a{
+            font-size: 30px;
+            border-radius:20px;
+            position:absolute;
+            top:30%;
+            left:30%;
+            width:250px;
+            background-color:red;
+            border:2px outset yellowgreen;
+            height: 300px;
+        }
+         </style>
+         
+    <script>
+        function a()
+         {
+             var c=["green","white","blue","gray","voilet","orange"]
+             var x=Math.floor(Math.random()*6);
+             document.getElementById("a").style.backgroundColor=c[x];
+             var x=Math.floor(Math.random()*200);
+            // var y=Math.floor(Math.random()*1000);
+             //var z=Math.floor(Math.random()*200);
+             document.getElementById("a").style.top=x;
+             var x=Math.floor(Math.random()*1000);
+             document.getElementById("a").style.left=x;
+             var x=Math.floor(Math.random()*200);
+             document.getElementById("a").style.bottom=x;
+             var x=Math.floor(Math.random()*50);
+             document.getElementById("a").style.borderWidth=x;
+
+             
+         }
+           
+    
+    </script>
+</head>
+<body>
+<div class="a" id="a">
+    <pre>REGION
+    OF
+    IMPACT
+</pre>
+</div>
+<button style="background-color:black;color:whitesmoke;position:absolute ;top:60%;left:80%;height: 90px;width:auto;" onclick="a()">Click to See</button>
+
+</body>
+</html>
