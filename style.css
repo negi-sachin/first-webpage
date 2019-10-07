@@ -52,13 +52,18 @@ body{
 
 }
 .qoute{
-    margin-left:60px;
+    margin-left:px;
     width:500px;
     margin-top: 50px;
     font-family:Gloria+Hallelujah;
     font-size:30px;
     color:white;
-    background-color: #312c2c
+    background-color: #312c2c;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    opacity: 0.8;
+    filter: alpha(opacity=30);
 
 }
 .img{
@@ -67,4 +72,9 @@ body{
     border-radius:40%;
     margin:10px;
 }
-console.log("Hii");
+
+@media screen and (max-width: 800px) {
+      .buttn {
+          width: 100%;
+      }
+  }
