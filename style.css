@@ -25,7 +25,7 @@ body{
     background-color: black;
     font-size: 25px;
     margin:10px;
-    border-color:greenyellow;
+    border-color:green;
 }
 .mar{
     width:auto;
@@ -36,9 +36,9 @@ body{
     left:80%;
     border:1px outset whitesmoke;
     padding:5px 5px 5px 5px;
-    border-radius:10px;
+    border-radius:12px;
     color:rgb(0, 123, 139);
-    font-size:30px;
+    font-size:28px;
 
 }
 .gif{
@@ -52,7 +52,7 @@ body{
 
 }
 .qoute{
-    margin-left:px;
+    margin-left:5px;
     width:500px;
     margin-top: 50px;
     font-family:Gloria+Hallelujah;
